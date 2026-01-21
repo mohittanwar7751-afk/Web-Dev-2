@@ -1,0 +1,32 @@
+Ques-What is hoisting?
+
+Ans-The variable declaration and function declarationwill move to to the top of the scope.
+Hoisting will be applicable for var variable only not for let and const.
+
+
+Ques-What is TDZ(temporal dead zone)?
+
+Ans-When we declare the variable with let and const without its proper initialization then the variable lies in temporal dead zone until its proper initialization.
+
+Ques-Take a array with lengthb10 and keep ten different student marks in between 0 to 40 and check which student mark is pass for fail (below 16) 
+
+let marks=[33,25,18,11,22,35,38,9,6,15]
+let res = marks.filter((x)=>{
+    if(x>=16){
+        console.log(x,"pass")
+    }
+    else{
+        console.log(x,"fail")
+    }
+})
+
+
+
+Ques-Find the sum of all the elements inside an array with for loop.  
+Ans=
+x = [1,2,3,4,5,6,7,8,9,10]
+
+sum = 0
+for i in x:
+    sum = sum+i
+print(sum)
